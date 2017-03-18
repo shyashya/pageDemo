@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: HVDBodedo;
+    src: url('../Fonts/HVDBodedo.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../Fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../Fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoSlab-Regular;
+    src: url('../Fonts/RobotoSlab-Regular.ttf');
+}
+header {
+    background-color: #fff;
+    width: 100%;
+    z-index: 999
+}
+
+#header1 {
+    display: block;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+}
+
+#header1 .logo1 {
+    height: 250px;
+    background: url(../image/00_General/logo1.svg) no-repeat center;
+}
+#header2 {
+    position: fixed;
+    top:0;
+}
+
+#header2 .logo2{
+    width: 100%;
+    height: 125px;
+    background: url(../image/00_General/woodgrain_header_bp1.jpg) no-repeat center;
+    box-shadow :0 5px 5px #c0c0c0;
+}
+
+#header2 .logo2 .logo2_1{
+    width: 200px;
+    height: 110px;
+    display: inline-block;
+    margin-left: 50px;
+    float: left;
+    background: url(../image/00_General/logo2.svg) no-repeat center;
+}
+
+#header2 .logo2 .logo2_2{
+    width: 400px;
+    height: 110px;
+    display: inline-block;
+    float: right;
+    background: url(../image/00_General/tagline_bp1.svg) no-repeat center;
+}
+
+header div .main {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    max-width: 1024px;
+}
+
+header div .main .item,.item2{
+    width: 19%;
+    display: inline-block;
+    padding: 5px 0 20px 0;
+    position: relative;
+}
+
+header div .main .item2{
+    color: #c69c6d;
+}
+
+header div .main .item,.item2 span {
+    cursor: pointer;
+}
+
+header div .main .item span:hover{
+    color: #F15E3B;
+}
+header div .main .item2 span:hover{
+    color: #F15E3B;
+}
+
+header div .main .item .drop{
+    display: none;
+}
+
+header div .main .item{
+    color: #54534A;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header div .main .drop {
+    text-align: left;
+    position: absolute;
+    top: 53px;
+}
+
+header div .main .drop .item1 {
+    font-size: 18px;
+    line-height: 50px;
+    font-family: Montserrat-Bold;
+    width: 230px;
+    height: 50px;
+    background-color: #F08529;
+    box-shadow: 0px 5px 5px #C0C0C0;
+    list-style: none;
+}
+
+header div .main .drop .item1 + .item1 {
+    border-top: 1px solid #FFBF56;
+}
+
+header div .main .drop .item1 span {
+    color: #FFF;
+    padding: 10px;
+}
+
+header div .main .drop .item1:hover {
+    background-color: #F15E3B;
+}
+#header2 .nav2{
+    background-color: #FEF8F1;
+    box-shadow: 0 5px 5px #c0c0c0;
+}
+
+section .section1 {
+    position: relative;
+    display: block;
+    height: 750px;
+}
+
+section .section1 .carousel{
+    height: 100%;
+}
+
+section .section1 .carousel .carousel-indicators:hover{
+
+}
+
+section .section1 .carousel .item img{
+    width: 1920px;
+    height: 750px;
+}
+
+#myCarousel .carousel-indicators li{
+    background-color: #FFF;
+    border:1px solid #F15E3B;
+}
+
+#myCarousel .carousel-indicators .active {
+    background-color: #F15E3B;
+    border:1px solid #FFF;
+}
+
+section .section1 .box {
+    width: 400px;
+    background-color: #FFF;
+    opacity: 0.85;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    padding: 20px;
+    z-index: 50;
+}
+
+section .section1 .box .boxText h2 {
+    font-family: HVDBodedo;
+    font-size: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #F15E3B;
+    color: #F15E3B;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+section .section1 .box .boxText p {
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #54534A;
+    padding: 15px 0 10px 0;
+}
+
+.buttom a{
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Montserrat-Bold;
+    border-radius: 5px;
+    border:1px solid #F08529;
+    color: #F08529;
+    background-color: #FFF;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.buttom a:hover {
+    border:1px solid #FFF;
+    color: #FFF;
+    background-color: #F08529;
+    text-decoration: none;
+}
+
+section .section2 {
+    background-color: #FFF;
+    background-image: url(../image/01_Homepage/commitment_great_ingredients.jpg);
+    background-size:100%;
+    background-size:cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section .section2 h2 {
+    color: #F15E3B;
+    font-family: HVDBodedo;
+    font-size: 42px;
+    line-height: 42px;
+    margin: 65px 0;
+}
+
+section .section2 p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #54534A;
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+section .section2  a {
+    text-decoration: none;
+}
+
+section .section3 {
+    background-color: #F08529;
+    text-align: center;
+    margin: 0;
+}
+
+section .section3 h2 {
+    font-family: HVDBodedo;
+    font-size: 42px;
+    line-height: 42px;
+    padding-top:40px;
+    padding-bottom: 30px;
+    color: #FFF;
+}
+
+section .section3 p {
+    color:  #54534A;
+    font-family: OpenSans-Regular;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section .section3 ul {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #FFF;
+}
+
+section .section3 ul li {
+    display: inline-block;
+    width: 24.5%;
+    padding: 25px 0 325px 0;
+}
+
+section .section3 ul li:nth-child(1) {
+    background-image: url(../image/01_Homepage/freshness_seal_tomato.svg);
+    background-position: center;
+}
+
+section .section3 ul li:nth-child(2) {
+    background-image: url(../image/01_Homepage/freshness_seal_almonds.svg);
+    background-position: center;
+}
+
+section .section3 ul li:nth-child(3) {
+    background-image: url(../image/01_Homepage/freshness_seal_sauces.svg);
+    background-position: center;
+}
+
+section .section3 ul li:nth-child(4) {
+    background-image: url(../image/01_Homepage/freshness_seal_grains.svg);
+    background-position: center;
+}
+
+section .section4 {
+    background-color: #FEF8F1;
+    text-align: center;
+}
+.container_img {
+    display: block;
+    /* margin-bottom: 70px; */
+    margin: 0 auto 70px auto;
+    padding: 0 20px 0 20px;
+}
+.container_img img {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+section .section4 h2 {
+    color: #F15E3B;
+    font-family: HVDBodedo;
+    font-size: 42px;
+    line-height: 42px;
+    padding: 85px 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .ftop {
+    background-color:  #FFBF56;
+}
+
+footer .ftop h2 {
+    color: #54534A;
+    font-family: HVDBodedo;
+    font-size: 42px;
+    line-height: 42px;
+    padding: 65px 0 20px 0;
+    margin: 0;
+}
+
+footer .ftop a {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 20px 20px;
+}
+
+footer .ftop a:nth-child(1) {
+    background: url(../image/00_General/facebook_inactive.svg) center;
+}
+
+footer .ftop a:nth-child(2) {
+    background: url(../image/00_General/pinterest_inactive.svg) no-repeat -480px -340px;
+}
+
+footer .ftop a:nth-child(1):hover {
+    background: url(../image/00_General/facebook_hover.svg) center;
+}
+
+footer .ftop a:nth-child(2):hover {
+    background: url(../image/00_General/pinterest_hover.svg) no-repeat -480px -340px;
+}
+
+footer .ftop p {
+    color: #54534A;
+    font-family: HVDBodedo;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 40px;
+}
+
+footer .fbottom .logo3 a{
+    display: inline-block;
+    margin-top: 30px;
+    width: 100px;
+    height: 65px;
+    background: url(../image/00_General/logo_footer.svg) no-repeat center;
+}
+
+.address, .email,.fbot span {
+    color: #54534A;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.email span {
+   border-right: 1px solid #54534A;
+    padding-right: 20px;
+}
+
+footer .fbottom .email a ,.fbot a{
+    color: #F15E3B;
+}
+.fbot span{
+    font-size: 13px;
+}
+
